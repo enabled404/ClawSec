@@ -1,0 +1,1134 @@
+﻿ubuntu-latest	Run cargo test	∩╗┐2026-04-03T23:39:42.2088109Z ##[group]Run cargo test --workspace
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2088435Z [36;1mcargo test --workspace[0m
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2115741Z shell: /usr/bin/bash -e {0}
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2115980Z env:
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2116156Z   CARGO_HOME: /home/runner/.cargo
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2116406Z   CARGO_INCREMENTAL: 0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2116604Z   CARGO_TERM_COLOR: always
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.2116812Z ##[endgroup]
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.3514587Z [1m[92m   Compiling[0m itoa v1.0.18
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.3516192Z [1m[92m   Compiling[0m libc v0.2.183
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.3528275Z [1m[92m   Compiling[0m memchr v2.8.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.3545722Z [1m[92m   Compiling[0m log v0.4.29
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.5126503Z [1m[92m   Compiling[0m smallvec v1.15.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.5149233Z [1m[92m   Compiling[0m pin-project-lite v0.2.17
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.5512686Z [1m[92m   Compiling[0m zerofrom v0.1.6
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.6255381Z [1m[92m   Compiling[0m cfg-if v1.0.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.6492894Z [1m[92m   Compiling[0m stable_deref_trait v1.2.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.6683043Z [1m[92m   Compiling[0m bytes v1.11.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.6792505Z [1m[92m   Compiling[0m yoke v0.8.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:42.8097176Z [1m[92m   Compiling[0m serde_core v1.0.228
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.0936943Z [1m[92m   Compiling[0m zerovec v0.11.5
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.4449063Z [1m[92m   Compiling[0m zmij v1.0.21
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.6047504Z [1m[92m   Compiling[0m tinystr v0.8.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.7065315Z [1m[92m   Compiling[0m writeable v0.6.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.7414560Z [1m[92m   Compiling[0m litemap v0.8.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.8112804Z [1m[92m   Compiling[0m errno v0.3.14
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.8364485Z [1m[92m   Compiling[0m mio v1.2.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.8807585Z [1m[92m   Compiling[0m signal-hook-registry v1.4.8
+ubuntu-latest	Run cargo test	2026-04-03T23:39:43.8939356Z [1m[92m   Compiling[0m socket2 v0.6.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.1109867Z [1m[92m   Compiling[0m icu_locale_core v2.1.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.3321241Z [1m[92m   Compiling[0m tokio v1.50.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.4186762Z [1m[92m   Compiling[0m potential_utf v0.1.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.5095696Z [1m[92m   Compiling[0m zerotrie v0.2.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.7483566Z [1m[92m   Compiling[0m percent-encoding v2.3.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:44.8698500Z [1m[92m   Compiling[0m icu_provider v2.1.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.1018178Z [1m[92m   Compiling[0m serde v1.0.228
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.1360392Z [1m[92m   Compiling[0m serde_json v1.0.149
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.1579106Z [1m[92m   Compiling[0m icu_collections v2.1.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.6505675Z [1m[92m   Compiling[0m icu_normalizer_data v2.1.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.6738518Z [1m[92m   Compiling[0m icu_properties_data v2.1.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.6823507Z [1m[92m   Compiling[0m futures-core v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.7703153Z [1m[92m   Compiling[0m icu_properties v2.1.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:45.7745153Z [1m[92m   Compiling[0m icu_normalizer v2.1.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.3748597Z [1m[92m   Compiling[0m form_urlencoded v1.2.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.4876491Z [1m[92m   Compiling[0m once_cell v1.21.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.5576205Z [1m[92m   Compiling[0m utf8_iter v1.0.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.6335693Z [1m[92m   Compiling[0m typenum v1.19.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.6421158Z [1m[92m   Compiling[0m bitflags v1.3.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:46.6741907Z [1m[92m   Compiling[0m fluent-uri v0.1.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.0424385Z [1m[92m   Compiling[0m idna_adapter v1.2.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.0923778Z [1m[92m   Compiling[0m bitflags v2.11.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.1094934Z [1m[92m   Compiling[0m idna v1.1.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.2096406Z [1m[92m   Compiling[0m generic-array v0.14.7
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.2583508Z [1m[92m   Compiling[0m futures-sink v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.3095998Z [1m[92m   Compiling[0m lsp-types v0.97.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.7545543Z [1m[92m   Compiling[0m url v2.5.8
+ubuntu-latest	Run cargo test	2026-04-03T23:39:47.9444889Z [1m[92m   Compiling[0m http v1.4.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:48.6115615Z [1m[92m   Compiling[0m regex-syntax v0.8.10
+ubuntu-latest	Run cargo test	2026-04-03T23:39:49.0002672Z [1m[92m   Compiling[0m http-body v1.0.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:49.0767260Z [1m[92m   Compiling[0m block-buffer v0.10.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:49.1535651Z [1m[92m   Compiling[0m crypto-common v0.1.7
+ubuntu-latest	Run cargo test	2026-04-03T23:39:49.2108779Z [1m[92m   Compiling[0m tracing-core v0.1.36
+ubuntu-latest	Run cargo test	2026-04-03T23:39:49.7995926Z [1m[92m   Compiling[0m aho-corasick v1.1.4
+ubuntu-latest	Run cargo test	2026-04-03T23:39:50.9998888Z [1m[92m   Compiling[0m same-file v1.0.6
+ubuntu-latest	Run cargo test	2026-04-03T23:39:51.0950559Z [1m[92m   Compiling[0m walkdir v2.5.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:51.3951060Z [1m[92m   Compiling[0m regex-automata v0.4.14
+ubuntu-latest	Run cargo test	2026-04-03T23:39:51.5601697Z [1m[92m   Compiling[0m tracing v0.1.44
+ubuntu-latest	Run cargo test	2026-04-03T23:39:51.7706974Z [1m[92m   Compiling[0m digest v0.10.7
+ubuntu-latest	Run cargo test	2026-04-03T23:39:51.9114355Z [1m[92m   Compiling[0m plugins v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/plugins)
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.2060238Z [1m[92m   Compiling[0m tower-service v0.3.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.2466466Z [1m[92m   Compiling[0m futures-io v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.3456108Z [1m[92m   Compiling[0m cpufeatures v0.2.17
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.3734619Z [1m[92m   Compiling[0m slab v0.4.12
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.4875896Z [1m[92m   Compiling[0m futures-task v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:52.5996311Z [1m[92m   Compiling[0m futures-util v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:54.1523923Z [1m[92m   Compiling[0m regex v1.12.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:54.5782063Z [1m[92m   Compiling[0m sha2 v0.10.9
+ubuntu-latest	Run cargo test	2026-04-03T23:39:54.9251989Z [1m[92m   Compiling[0m glob v0.3.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.2486933Z [1m[92m   Compiling[0m base64 v0.22.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.3495044Z [1m[92m   Compiling[0m try-lock v0.2.5
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.3915065Z [1m[92m   Compiling[0m zeroize v1.8.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.4665994Z [1m[92m   Compiling[0m want v0.3.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.5035534Z [1m[92m   Compiling[0m rustls-pki-types v1.14.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.5312862Z [1m[92m   Compiling[0m httparse v1.10.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.5636870Z [1m[92m   Compiling[0m futures-channel v0.3.32
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.7246073Z [1m[92m   Compiling[0m sync_wrapper v1.0.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.7685278Z [1m[92m   Compiling[0m getrandom v0.2.17
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.7845894Z [1m[92m   Compiling[0m untrusted v0.9.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.8429335Z [1m[92m   Compiling[0m httpdate v1.0.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.8775375Z [1m[92m   Compiling[0m tower-layer v0.3.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.9479299Z [1m[92m   Compiling[0m atomic-waker v1.1.2
+ubuntu-latest	Run cargo test	2026-04-03T23:39:55.9894617Z [1m[92m   Compiling[0m hyper v1.9.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:56.0009606Z [1m[92m   Compiling[0m ring v0.17.14
+ubuntu-latest	Run cargo test	2026-04-03T23:39:56.0050458Z [1m[92m   Compiling[0m ipnet v2.12.0
+ubuntu-latest	Run cargo test	2026-04-03T23:39:56.5215524Z [1m[92m   Compiling[0m lsp v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/lsp)
+ubuntu-latest	Run cargo test	2026-04-03T23:39:56.7675764Z [1m[92m   Compiling[0m tower v0.5.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:57.2294344Z [1m[92m   Compiling[0m runtime v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/runtime)
+ubuntu-latest	Run cargo test	2026-04-03T23:39:57.5087873Z [1m[92m   Compiling[0m rustls-webpki v0.103.10
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.3028998Z [1m[92m   Compiling[0m hyper-util v0.1.20
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.3684650Z [1m[92m   Compiling[0m http-body-util v0.1.3
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4541594Z [1m[33mwarning[0m[1m: unused variable: `error`[0m
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4542338Z    [1m[94m--> [0mcrates/runtime/src/config.rs:510:13
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4542843Z     [1m[94m|[0m
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4543502Z [1m[94m510[0m [1m[94m|[0m         Err(error) if is_legacy_config => return Ok(None),
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4544857Z     [1m[94m|[0m             [1m[33m^^^^^[0m [1m[33mhelp: if this is intentional, prefix it with an underscore: `_error`[0m
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4545784Z     [1m[94m|[0m
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4546492Z     [1m[94m= [0m[1mnote[0m: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.4547054Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.5504887Z [1m[92m   Compiling[0m subtle v2.6.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.6385982Z [1m[92m   Compiling[0m ryu v1.0.23
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.6446018Z [1m[92m   Compiling[0m rustls v0.23.37
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.7675469Z [1m[92m   Compiling[0m serde_urlencoded v0.7.1
+ubuntu-latest	Run cargo test	2026-04-03T23:39:58.9575137Z [1m[92m   Compiling[0m webpki-roots v1.0.6
+ubuntu-latest	Run cargo test	2026-04-03T23:39:59.0295627Z [1m[92m   Compiling[0m iri-string v0.7.12
+ubuntu-latest	Run cargo test	2026-04-03T23:40:00.1185211Z [1m[92m   Compiling[0m tokio-util v0.7.18
+ubuntu-latest	Run cargo test	2026-04-03T23:40:00.5472065Z [1m[92m   Compiling[0m tower-http v0.6.8
+ubuntu-latest	Run cargo test	2026-04-03T23:40:00.9084485Z [1m[92m   Compiling[0m commands v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/commands)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:00.9173811Z [1m[92m   Compiling[0m mime v0.3.17
+ubuntu-latest	Run cargo test	2026-04-03T23:40:01.1316359Z [1m[92m   Compiling[0m powerfmt v0.2.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:01.2756209Z [1m[92m   Compiling[0m deranged v0.5.8
+ubuntu-latest	Run cargo test	2026-04-03T23:40:01.8242140Z [1m[92m   Compiling[0m tokio-rustls v0.26.4
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.0265931Z [1m[92m   Compiling[0m hyper-rustls v0.27.7
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.1286193Z [1m[33mwarning[0m: `runtime` (lib) generated 1 warning (run `cargo fix --lib -p runtime` to apply 1 suggestion)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.1287566Z [1m[92m   Compiling[0m axum-core v0.5.6
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.2495899Z [1m[92m   Compiling[0m reqwest v0.12.28
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.3454488Z [1m[92m   Compiling[0m serde_path_to_error v0.1.20
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.6806892Z [1m[92m   Compiling[0m equivalent v1.0.2
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.7169024Z [1m[92m   Compiling[0m scopeguard v1.2.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.7595256Z [1m[92m   Compiling[0m unicode-width v0.2.2
+ubuntu-latest	Run cargo test	2026-04-03T23:40:02.9375440Z [1m[92m   Compiling[0m simd-adler32 v0.3.9
+ubuntu-latest	Run cargo test	2026-04-03T23:40:03.0927395Z [1m[92m   Compiling[0m linux-raw-sys v0.12.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:03.4215621Z [1m[92m   Compiling[0m num-conv v0.2.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:03.5197355Z [1m[92m   Compiling[0m adler2 v2.0.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:03.5875819Z [1m[92m   Compiling[0m hashbrown v0.16.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:03.7413045Z [1m[92m   Compiling[0m api v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/api)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:04.1241752Z [1m[92m   Compiling[0m time-core v0.1.8
+ubuntu-latest	Run cargo test	2026-04-03T23:40:04.2245551Z [1m[92m   Compiling[0m matchit v0.8.4
+ubuntu-latest	Run cargo test	2026-04-03T23:40:04.5498578Z [1m[92m   Compiling[0m axum v0.8.8
+ubuntu-latest	Run cargo test	2026-04-03T23:40:05.2818572Z [1m[92m   Compiling[0m tools v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/tools)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:06.8396002Z [1m[92m   Compiling[0m time v0.3.47
+ubuntu-latest	Run cargo test	2026-04-03T23:40:07.2096159Z [1m[92m   Compiling[0m indexmap v2.13.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:07.8356429Z [1m[92m   Compiling[0m miniz_oxide v0.8.9
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.5265360Z [1m[92m   Compiling[0m rustix v1.1.4
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.6341237Z [1m[92m   Compiling[0m lock_api v0.4.14
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.6885156Z [1m[92m   Compiling[0m async-stream v0.3.6
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.7210025Z [1m[92m   Compiling[0m onig_sys v69.9.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.7530605Z [1m[92m   Compiling[0m parking_lot_core v0.9.12
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.8140818Z [1m[92m   Compiling[0m crc32fast v1.5.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.8166235Z [1m[92m   Compiling[0m signal-hook v0.3.18
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.9290080Z [1m[92m   Compiling[0m quick-xml v0.38.4
+ubuntu-latest	Run cargo test	2026-04-03T23:40:08.9536251Z [1m[92m   Compiling[0m nibble_vec v0.1.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.0247251Z [1m[92m   Compiling[0m linux-raw-sys v0.4.15
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.0826106Z [1m[92m   Compiling[0m linked-hash-map v0.5.6
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.2072798Z [1m[92m   Compiling[0m endian-type v0.1.2
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.2815747Z [1m[92m   Compiling[0m radix_trie v0.2.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.3145679Z [1m[92m   Compiling[0m rustix v0.38.44
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.5220949Z [1m[92m   Compiling[0m plist v1.8.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:09.8989122Z [1m[92m   Compiling[0m yaml-rust v0.4.5
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.1017733Z [1m[92m   Compiling[0m fd-lock v4.0.4
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.1675981Z [1m[92m   Compiling[0m thiserror v2.0.18
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.2113449Z [1m[92m   Compiling[0m signal-hook-mio v0.2.5
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.2659101Z [1m[92m   Compiling[0m parking_lot v0.12.5
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.4516425Z [1m[92m   Compiling[0m flate2 v1.1.9
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.4845374Z [1m[92m   Compiling[0m nix v0.29.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.6720013Z [1m[92m   Compiling[0m onig v6.5.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.7456363Z [1m[92m   Compiling[0m compat-harness v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/compat-harness)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.8362886Z [1m[92m   Compiling[0m getopts v0.2.24
+ubuntu-latest	Run cargo test	2026-04-03T23:40:10.9714348Z [1m[92m   Compiling[0m bincode v1.3.3
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.2496164Z [1m[92m   Compiling[0m unicase v2.9.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.3635736Z [1m[92m   Compiling[0m pulldown-cmark-escape v0.11.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.3718554Z [1m[92m   Compiling[0m utf8parse v0.2.2
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.3864993Z [1m[92m   Compiling[0m home v0.5.12
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.4187064Z [1m[92m   Compiling[0m fnv v1.0.7
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.4253203Z [1m[92m   Compiling[0m unicode-segmentation v1.13.2
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.4512369Z [1m[92m   Compiling[0m pulldown-cmark v0.13.3
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.4605848Z [1m[92m   Compiling[0m syntect v5.3.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:11.8195734Z [1m[92m   Compiling[0m crossterm v0.28.1
+ubuntu-latest	Run cargo test	2026-04-03T23:40:12.6007059Z [1m[92m   Compiling[0m rustyline v15.0.0
+ubuntu-latest	Run cargo test	2026-04-03T23:40:12.9586908Z [1m[92m   Compiling[0m server v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/server)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:15.0512223Z [1m[92m   Compiling[0m claw-cli v0.1.0 (/home/runner/work/ClawSec/ClawSec/crates/claw-cli)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.3886169Z [1m[33mwarning[0m: `runtime` (lib test) generated 1 warning (1 duplicate)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.3887233Z [1m[92m    Finished[0m `test` profile [unoptimized + debuginfo] target(s) in 41.16s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4008040Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/api-9c190031a931ca36)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4024358Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4024679Z running 36 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4036108Z test client::tests::provider_detection_prefers_model_family ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4036921Z test client::tests::resolves_existing_and_grok_aliases ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4037818Z test providers::claw_provider::tests::auth_source_from_env_combines_api_key_and_bearer_token ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4038878Z test providers::claw_provider::tests::message_request_stream_helper_sets_stream_true ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4039828Z test providers::claw_provider::tests::backoff_doubles_until_maximum ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4040621Z test providers::claw_provider::tests::auth_source_applies_headers ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4041474Z test providers::claw_provider::tests::oauth_token_expiry_uses_expires_at_timestamp ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4042400Z test providers::claw_provider::tests::oauth_token_maps_to_bearer_auth_source ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4043526Z test providers::claw_provider::tests::auth_source_from_saved_oauth_when_env_absent ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4044474Z test providers::claw_provider::tests::read_api_key_prefers_api_key_env ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4045296Z test providers::claw_provider::tests::read_api_key_requires_non_empty_value ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4045805Z test providers::claw_provider::tests::read_api_key_requires_presence ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4046308Z test providers::claw_provider::tests::read_auth_token_reads_auth_token_env ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4047091Z test providers::claw_provider::tests::request_id_uses_primary_or_fallback_header ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4066945Z test providers::claw_provider::tests::resolve_saved_oauth_token_preserves_refresh_token_when_refresh_response_omits_it ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4068217Z test providers::claw_provider::tests::retryable_statuses_are_detected ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4069171Z test providers::claw_provider::tests::tool_delta_variant_round_trips ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4070222Z test providers::openai_compat::tests::endpoint_builder_accepts_base_urls_and_full_endpoints ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4071234Z test providers::openai_compat::tests::missing_xai_api_key_is_provider_specific ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4072827Z test providers::openai_compat::tests::normalizes_stop_reasons ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4073731Z test providers::openai_compat::tests::parses_tool_arguments_fallback ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4075126Z test providers::openai_compat::tests::request_translation_uses_openai_compatible_shape ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4076598Z test providers::openai_compat::tests::tool_choice_translation_supports_required_function ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4077485Z test providers::tests::detects_provider_from_model_name_first ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4078501Z test providers::tests::keeps_existing_max_token_heuristic ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4082377Z test providers::tests::resolves_grok_aliases ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4082995Z test sse::tests::ignores_data_less_event_frames ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4084656Z test sse::tests::ignores_ping_and_done ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4086916Z test sse::tests::parses_chunked_stream ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4088054Z test sse::tests::parses_single_frame ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4088804Z test sse::tests::parses_split_json_across_data_lines ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4089987Z test sse::tests::parses_thinking_content_block_start ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4091169Z test sse::tests::parses_thinking_related_deltas ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4092255Z test providers::claw_provider::tests::resolve_saved_oauth_token_refreshes_expired_credentials ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4098733Z test providers::claw_provider::tests::resolve_startup_auth_source_errors_when_refreshable_token_lacks_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4103335Z test providers::claw_provider::tests::resolve_startup_auth_source_uses_saved_oauth_without_loading_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4104581Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4105151Z test result: ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4106021Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4110282Z [1m[92m     Running[0m tests/client_integration.rs (target/debug/deps/client_integration-f0f6e19379b0babe)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4122986Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4123178Z running 6 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4126206Z test live_stream_smoke_test ... ignored, requires ANTHROPIC_API_KEY and network access
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4147305Z test provider_client_dispatches_api_requests ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4158983Z test send_message_posts_json_and_parses_response ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4159856Z test stream_message_parses_sse_events_with_tool_use ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4173228Z test retries_retryable_failures_before_succeeding ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4187595Z test surfaces_retry_exhaustion_for_persistent_retryable_errors ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4188084Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4188340Z test result: ok. 5 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.01s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4188691Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4193100Z [1m[92m     Running[0m tests/openai_compat_integration.rs (target/debug/deps/openai_compat_integration-bb5392716f0bde6e)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4206101Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4206271Z running 4 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4229022Z test send_message_accepts_full_chat_completions_endpoint_override ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4229818Z test provider_client_dispatches_xai_requests_from_env ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4230389Z test send_message_uses_openai_compatible_endpoint_and_auth ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4230860Z test stream_message_normalizes_text_and_multiple_tool_calls ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4231140Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4231394Z test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4231776Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4234653Z [1m[92m     Running[0m tests/provider_client_integration.rs (target/debug/deps/provider_client_integration-b6fbcd945f2ec90d)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4245309Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4245465Z running 4 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4249139Z test provider_client_reports_missing_xai_credentials_for_grok_models ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4251653Z test provider_client_routes_grok_aliases_through_xai ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4256053Z test provider_client_uses_explicit_auth_without_env_lookup ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4256848Z [1m[92m     Running[0m unittests src/main.rs (target/debug/deps/claw-fa8ba2a11666fd59)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4257618Z test read_xai_base_url_prefers_env_override ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4258096Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4258357Z test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4258907Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4269343Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4269511Z running 75 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4276838Z test input::tests::command_mode_submits_colon_prefixed_input ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4277592Z test input::tests::ctrl_c_cancels_when_input_exists ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4278268Z test input::tests::dd_and_p_paste_deleted_line_after_current_line ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4279138Z test init::tests::render_init_template_mentions_detected_python_and_nextjs_markers ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4280060Z test input::tests::extracts_only_terminal_slash_command_prefixes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4280878Z test input::tests::normal_mode_supports_motion_and_insert_transition ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4281712Z test input::tests::push_history_ignores_blank_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4282487Z test init::tests::initialize_repo_creates_expected_files_and_gitignore_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4283178Z test input::tests::tab_completes_matching_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4283629Z test init::tests::initialize_repo_is_idempotent_and_preserves_existing_files ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4295209Z test input::tests::visual_mode_tracks_selection_with_motions ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4296417Z test input::tests::tab_cycles_between_matching_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4298780Z test input::tests::toggle_submission_flips_vim_mode ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.4299772Z test input::tests::yy_and_p_paste_yanked_line_after_current_line ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5015553Z test render::tests::renders_ordered_and_nested_lists ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5022712Z test render::tests::renders_links_as_colored_markdown_labels ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5065253Z test render::tests::renders_markdown_with_styling_and_lists ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5152432Z test render::tests::highlights_fenced_code_blocks ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5153789Z test tests::clear_command_requires_explicit_confirmation_flag ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5155263Z test tests::compact_report_uses_structured_output ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5160303Z test tests::completion_candidates_include_repl_only_exit_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5185885Z test tests::config_report_supports_section_views ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5189074Z test tests::config_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5189658Z test tests::converts_tool_roundtrip_messages ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5190221Z test tests::cost_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5214666Z test tests::defaults_to_repl_when_no_args ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5216836Z test tests::describe_tool_progress_summarizes_known_tools ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5218675Z test tests::filtered_tool_specs_include_plugin_tools ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5219910Z test tests::filtered_tool_specs_respect_allowlist ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5221809Z test tests::init_help_mentions_direct_subcommand ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5223894Z test tests::init_template_mentions_detected_rust_workspace ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5227461Z test tests::memory_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5229318Z test tests::model_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5242932Z test tests::model_switch_report_preserves_context_summary ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5254561Z test tests::normalizes_supported_permission_modes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5256933Z test tests::parses_allowed_tools_flags_with_aliases_and_lists ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5257657Z test tests::parses_bare_prompt_and_json_output_flag ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5283544Z test tests::parses_direct_agents_and_skills_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5305721Z test tests::parses_git_status_metadata ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5349938Z test tests::parses_login_and_logout_subcommands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5367643Z test tests::parses_permission_mode_flag ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5368726Z test tests::parses_prompt_subcommand ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5378026Z test tests::parses_resume_and_config_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5379365Z test tests::parses_resume_flag_with_multiple_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5387840Z test tests::parses_resume_flag_with_slash_command ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5396911Z test tests::parses_system_prompt_options ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5420744Z test tests::parses_version_flags_without_initializing_prompt_mode ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5434680Z test tests::permission_policy_uses_plugin_tool_permissions ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5436932Z test tests::permissions_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5439069Z test tests::permissions_switch_report_is_structured ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5528155Z test render::tests::renders_tables_with_alignment ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5545585Z test tests::push_output_block_skips_empty_object_prefix_for_tool_streams ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5559798Z test tests::rejects_unknown_allowed_tools ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5567740Z test tests::repl_help_includes_shared_commands_and_exit ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5569916Z test tests::repl_help_mentions_history_completion_and_multiline ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5572233Z test tests::resolves_known_model_aliases ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5579738Z test tests::resolves_model_aliases_in_args ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5588310Z test render::tests::spinner_advances_frames ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5596051Z test tests::response_to_events_preserves_empty_object_json_input_outside_streaming ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5600922Z test tests::response_to_events_preserves_non_empty_json_input_outside_streaming ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5601753Z test tests::resume_report_uses_sectioned_layout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5602483Z test tests::resume_supported_command_list_matches_expected_surface ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5603238Z test tests::shared_help_uses_resume_annotation_copy ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5866511Z test render::tests::streaming_state_waits_for_complete_blocks ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5870686Z test tests::status_line_reports_model_and_token_totals ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5874817Z test tests::tool_rendering_helpers_compact_output ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5885275Z test tests::tool_rendering_truncates_generic_long_output_for_display_only ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5892799Z test tests::tool_rendering_truncates_large_bash_output_for_display_only ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5902031Z test tests::tool_rendering_truncates_large_read_output_for_display_only ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5907658Z test tests::tool_rendering_truncates_raw_generic_output_for_display_only ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5913774Z test tests::ultraplan_progress_lines_include_phase_step_and_elapsed_status ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5916580Z test tests::unknown_repl_command_suggestions_include_repl_shortcuts ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5934575Z test tests::push_output_block_renders_markdown_text ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.5935335Z test tests::status_context_reads_real_workspace_metadata ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6035911Z test tests::response_to_events_ignores_thinking_blocks ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6036393Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6036674Z test result: ok. 75 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6037039Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6043702Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/commands-dcb9a6400d31e158)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6053901Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6054087Z running 17 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6075041Z test tests::agents_and_skills_usage_support_help_and_unexpected_args ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6091517Z test tests::compacts_sessions_via_slash_command ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6138922Z test tests::enables_and_disables_plugin_by_name ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6139534Z test tests::help_command_is_non_mutating ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6141296Z test tests::ignores_unknown_or_runtime_bound_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6175171Z test tests::installs_plugin_from_path_and_lists_it ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6185044Z test tests::lists_agents_from_project_and_user_roots ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6197906Z test tests::lists_auto_installed_bundled_plugins_with_status ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6218061Z test tests::lists_skills_from_project_and_user_roots ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6220229Z test tests::parses_quoted_skill_frontmatter_values ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6222311Z test tests::parses_supported_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6226730Z test tests::renders_help_from_shared_specs ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6228795Z test tests::renders_plugins_report_with_name_version_and_status ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6230656Z test tests::suggests_close_slash_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6392740Z test tests::commit_command_stages_and_commits_changes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6472045Z test tests::branch_and_worktree_commands_manage_git_state ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6881950Z test tests::commit_push_pr_command_commits_pushes_and_creates_pr ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6882494Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6882898Z test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6883521Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6886057Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/compat_harness-8c7d4fd7197ad1ea)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6895503Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6895668Z running 3 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6899280Z test tests::detects_known_upstream_command_symbols ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6899793Z test tests::detects_known_upstream_tool_symbols ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6900236Z test tests::extracts_non_empty_manifests_from_upstream_repo ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6900835Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6901241Z test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6901813Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6902350Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/lsp-adf8f819b3cafdf6)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6913366Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.6913591Z running 2 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7254867Z test tests::collects_diagnostics_and_symbol_navigation_from_mock_server ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7255554Z test tests::renders_runtime_context_enrichment_for_prompt_usage ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7255853Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7256116Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7256463Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7259108Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/plugins-30d60e95d4ab32d6)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7268842Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7268990Z running 27 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7290878Z test tests::auto_installs_bundled_plugins_into_the_registry ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7313230Z test tests::bundled_sync_prunes_removed_bundled_registry_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7326959Z test tests::default_bundled_root_loads_repo_bundles_as_installed_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7338392Z test tests::aggregates_and_executes_plugin_tools ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7342103Z test tests::discovers_builtin_and_bundled_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7347846Z test tests::installed_plugin_discovery_keeps_registry_entries_outside_install_root ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7350047Z test tests::installed_plugin_discovery_prunes_stale_registry_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7356626Z test tests::list_installed_plugins_scans_install_root_without_registry_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7363640Z test tests::list_installed_plugins_scans_packaged_manifests_in_install_root ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7367909Z test tests::load_plugin_from_directory_accumulates_multiple_validation_errors ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7370822Z test tests::load_plugin_from_directory_defaults_optional_fields ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7379544Z test hooks::tests::collects_and_runs_hooks_from_enabled_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7383514Z test tests::load_plugin_from_directory_reads_root_manifest_and_validates_entries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7384984Z test tests::load_plugin_from_directory_rejects_invalid_permissions ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7389499Z test tests::load_plugin_from_directory_rejects_duplicate_permissions_and_commands ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7391359Z test tests::load_plugin_from_directory_rejects_invalid_tool_required_permission ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7393515Z test tests::load_plugin_from_directory_rejects_missing_tool_or_command_paths ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7396293Z test tests::load_plugin_from_directory_validates_required_fields ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7401421Z test tests::load_plugin_from_directory_supports_packaged_manifest_path ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7411904Z test tests::persists_bundled_plugin_disable_state_across_reloads ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7417606Z test tests::persists_bundled_plugin_enable_state_across_reloads ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7422106Z test hooks::tests::pre_tool_use_denies_when_plugin_hook_exits_two ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7435642Z test tests::rejects_plugin_sources_with_missing_hook_paths ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7437199Z test tests::validates_plugin_source_before_install ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7437935Z test tests::installs_enables_updates_and_uninstalls_external_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7462825Z test tests::plugin_registry_runs_initialize_and_shutdown_for_enabled_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7464693Z test tests::plugin_registry_tracks_enabled_state_and_lookup ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7465164Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7465564Z test result: ok. 27 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7466151Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7468507Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/runtime-adbac62c11c5f2b1)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7481870Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7482048Z running 87 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7492307Z test compact::tests::extracts_key_files_from_message_content ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7493182Z test compact::tests::formats_compact_summary_like_upstream ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7494507Z test compact::tests::ignores_existing_compacted_summary_when_deciding_to_recompact ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7495679Z test compact::tests::infers_pending_work_from_recent_messages ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7496575Z test compact::tests::compacts_older_messages_into_a_system_summary ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7503718Z test compact::tests::keeps_previous_compacted_context_when_compacting_again ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7504826Z test compact::tests::leaves_small_sessions_unchanged ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7505683Z test compact::tests::truncates_long_blocks_in_summary ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7521196Z test config::tests::parses_plugin_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7529126Z test config::tests::loads_and_merges_claw_code_config_files_by_precedence ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7534899Z test config::tests::parses_plugin_config_from_enabled_plugins ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7538975Z test config::tests::parses_sandbox_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7550890Z test config::tests::rejects_invalid_mcp_server_shapes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7553159Z test config::tests::rejects_non_object_settings_files ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7557802Z test config::tests::parses_typed_mcp_and_oauth_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7566942Z test bash::tests::disables_sandbox_when_requested ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7569085Z test bash::tests::executes_simple_command ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7570611Z test conversation::tests::reconstructs_usage_tracker_from_restored_session ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7573604Z test conversation::tests::compacts_session_after_turns ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7575093Z test conversation::tests::records_denied_tool_results_when_prompt_rejects ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7575678Z test conversation::tests::runs_user_to_tool_to_result_loop_end_to_end_and_tracks_usage ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7578941Z test file_ops::tests::globs_and_greps_directory ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7586010Z test file_ops::tests::edits_file_contents ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7604540Z test file_ops::tests::reads_and_writes_files ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7640024Z test conversation::tests::denies_tool_use_when_pre_tool_hook_blocks ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7650983Z test hooks::tests::allows_exit_code_zero_and_captures_stdout ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7653299Z test json::tests::escapes_control_characters ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7655536Z test json::tests::renders_and_parses_json_values ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7658594Z test mcp::tests::computes_signatures_for_stdio_and_remote_servers ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7661611Z test mcp::tests::normalizes_server_names_for_mcp_tooling ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7664831Z test mcp::tests::scoped_hash_ignores_scope_but_tracks_config_content ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7675447Z test mcp::tests::unwraps_ccr_proxy_urls_for_signature_matching ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7678019Z test mcp_client::tests::bootstraps_remote_servers_with_oauth_auth ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7680390Z test mcp_client::tests::bootstraps_stdio_servers_into_transport_targets ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7683853Z test mcp_client::tests::bootstraps_websocket_and_sdk_transports_without_oauth ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7685527Z test hooks::tests::denies_exit_code_two ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7687829Z test mcp_stdio::tests::direct_spawn_uses_transport_env ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7688645Z test conversation::tests::appends_post_tool_hook_feedback_to_tool_result ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7696730Z test mcp_stdio::tests::manager_records_unsupported_non_stdio_servers_without_panicking ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7729313Z test mcp_stdio::tests::manager_reports_unknown_qualified_tool_name ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7738453Z test hooks::tests::warns_for_other_non_zero_statuses ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7963349Z test mcp_stdio::tests::lists_tools_calls_tool_and_reads_resources_over_jsonrpc ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7994657Z test mcp_stdio::tests::manager_discovers_tools_from_stdio_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.7997011Z test mcp_stdio::tests::rejects_non_stdio_bootstrap ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8025334Z test mcp_stdio::tests::manager_reuses_spawned_server_between_discovery_and_call ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8047680Z test mcp_stdio::tests::spawns_stdio_process_and_round_trips_io ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8259535Z test mcp_stdio::tests::manager_shutdown_terminates_spawned_children_and_is_idempotent ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8325316Z test mcp_stdio::tests::round_trips_initialize_request_and_response_over_stdio_frames ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8328057Z test oauth::tests::builds_authorize_url_and_form_requests ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8330451Z test oauth::tests::generates_pkce_pair_and_state ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8339118Z test oauth::tests::oauth_credentials_round_trip_and_clear_preserves_other_fields ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8340668Z test oauth::tests::parses_callback_query_and_target ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8342703Z test oauth::tests::s256_challenge_matches_expected_vector ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8345097Z test permissions::tests::allows_tools_when_active_mode_meets_requirement ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8360269Z test permissions::tests::denies_read_only_escalations_without_prompt ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8361069Z test permissions::tests::honors_prompt_rejection_reason ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8361928Z test permissions::tests::prompts_for_workspace_write_to_danger_full_access_escalation ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8362854Z test prompt::tests::dedupes_identical_instruction_content_across_scopes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8370134Z test mcp_stdio::tests::surfaces_jsonrpc_errors_from_tool_calls ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8373022Z test mcp_stdio::tests::manager_routes_tool_calls_to_correct_server ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8378435Z test prompt::tests::discovers_dot_claw_instructions_markdown ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8388352Z test prompt::tests::discovers_instruction_files_from_ancestor_chain ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8390432Z test prompt::tests::displays_context_paths_compactly ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8534798Z test mcp_stdio::tests::write_jsonrpc_request_emits_content_length_frame ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8536707Z test prompt::tests::normalizes_and_collapses_blank_lines ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8545661Z test prompt::tests::renders_claw_code_style_sections_with_project_context ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8546871Z test prompt::tests::renders_instruction_file_metadata ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8550472Z test prompt::tests::truncates_instruction_content_to_budget ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8553645Z test prompt::tests::discover_with_git_includes_diff_snapshot_for_tracked_changes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8555545Z test prompt::tests::truncates_large_instruction_content_for_rendering ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8557493Z test remote::tests::bootstrap_fails_open_when_token_or_session_is_missing ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8559665Z test remote::tests::helper_outputs_match_expected_shapes ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8560442Z test remote::tests::bootstrap_derives_proxy_state_and_env ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8562455Z test remote::tests::inherited_proxy_env_requires_proxy_and_ca ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8563541Z test remote::tests::remote_context_reads_env_state ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8564575Z test sandbox::tests::builds_linux_launcher_with_network_flag_when_requested ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8565484Z test sandbox::tests::detects_container_markers_from_multiple_sources ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8566277Z test sandbox::tests::resolves_request_with_overrides ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8571210Z test remote::tests::token_reader_trims_and_handles_missing_files ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8572003Z test session::tests::persists_and_restores_session_json ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8572675Z test usage::tests::computes_cost_summary_lines ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8573326Z test usage::tests::marks_unknown_model_pricing_as_fallback ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8574529Z test usage::tests::reconstructs_usage_from_session_messages ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8575239Z test usage::tests::supports_model_specific_pricing ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8575870Z test usage::tests::tracks_true_cumulative_usage ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8635395Z test prompt::tests::discover_with_git_includes_status_snapshot ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8666522Z test prompt::tests::load_system_prompt_reads_claw_files_and_config ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8667069Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8667398Z test result: ok. 87 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8667772Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8673373Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/server-2a21ff062443edeb)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8687026Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8687217Z running 2 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.8717116Z test tests::creates_and_lists_sessions ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9125016Z test tests::streams_message_events_and_persists_message_flow ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9125522Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9125816Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9126220Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9130171Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/tools-ebceebe10d0e4894)
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9146013Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9146194Z running 24 tests
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9150335Z test tests::agent_rejects_blank_required_fields ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9151877Z test tests::agent_tool_subset_mapping_is_expected ... FAILED
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9311024Z test tests::brief_returns_sent_message_and_attachment_metadata ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9325580Z test tests::bash_tool_reports_success_exit_failure_timeout_and_background ... FAILED
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9329028Z test tests::exposes_mvp_tools ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:23.9691241Z test tests::agent_fake_runner_can_persist_completion_and_failure ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0223842Z test tests::agent_persists_handoff_metadata ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0225034Z test tests::pending_tools_preserve_multiple_streaming_tool_calls_by_index ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0231045Z test tests::config_reads_and_writes_supported_values ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0243436Z test tests::file_tools_cover_read_write_and_edit_behaviors ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0244628Z test tests::rejects_unknown_tool_names ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0255835Z test tests::glob_and_grep_tools_cover_success_and_errors ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0259732Z test tests::powershell_errors_when_shell_is_missing ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0461771Z test tests::sleep_waits_and_reports_duration ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0463656Z test tests::structured_output_echoes_input_payload ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0470649Z test tests::repl_executes_python_code ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0475403Z test tests::powershell_runs_via_stub_shell ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0480106Z test tests::skill_loads_local_skill_prompt ... FAILED
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0487448Z test tests::subagent_runtime_executes_tool_loop_with_isolated_session ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0496946Z test tests::tool_search_supports_keyword_and_select_queries ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0683814Z test tests::web_fetch_supports_plain_text_and_rejects_invalid_url ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0691802Z test tests::web_search_extracts_and_filters_results ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0700642Z test tests::web_search_handles_generic_links_and_invalid_base_url ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0780877Z test tests::web_fetch_returns_prompt_aware_summary ... ok
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0781423Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0781552Z failures:
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0781727Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0782002Z ---- tests::agent_tool_subset_mapping_is_expected stdout ----
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0782440Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0782971Z thread 'tests::agent_tool_subset_mapping_is_expected' (6854) panicked at crates/tools/src/lib.rs:3553:9:
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0783854Z assertion failed: recon.contains("bash")
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0784804Z note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0785637Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0786042Z ---- tests::bash_tool_reports_success_exit_failure_timeout_and_background stdout ----
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0786695Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0787387Z thread 'tests::bash_tool_reports_success_exit_failure_timeout_and_background' (6855) panicked at crates/tools/src/lib.rs:3673:9:
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0788444Z assertion `left == right` failed
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0788889Z   left: String("")
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0789240Z  right: "hello"
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0789454Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0789722Z ---- tests::skill_loads_local_skill_prompt stdout ----
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0790166Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0790659Z thread 'tests::skill_loads_local_skill_prompt' (6891) panicked at crates/tools/src/lib.rs:3309:10:
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0791766Z Skill should succeed: "unknown skill: help"
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0792182Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0792189Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0792345Z failures:
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0792716Z     tests::agent_tool_subset_mapping_is_expected
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0793363Z     tests::bash_tool_reports_success_exit_failure_timeout_and_background
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0793796Z     tests::skill_loads_local_skill_prompt
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0794263Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0794701Z test result: FAILED. 21 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0795322Z 
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0795868Z [1m[91merror[0m: test failed, to rerun pass `-p tools --lib`
+ubuntu-latest	Run cargo test	2026-04-03T23:40:24.0868791Z ##[error]Process completed with exit code 101.
+macos-latest	Run cargo test	∩╗┐2026-04-03T23:39:47.4197590Z ##[group]Run cargo test --workspace
+macos-latest	Run cargo test	2026-04-03T23:39:47.4198050Z [36;1mcargo test --workspace[0m
+macos-latest	Run cargo test	2026-04-03T23:39:47.4248180Z shell: /bin/bash -e {0}
+macos-latest	Run cargo test	2026-04-03T23:39:47.4248400Z env:
+macos-latest	Run cargo test	2026-04-03T23:39:47.4248670Z   CARGO_HOME: /Users/runner/.cargo
+macos-latest	Run cargo test	2026-04-03T23:39:47.4248910Z   CARGO_INCREMENTAL: 0
+macos-latest	Run cargo test	2026-04-03T23:39:47.4249120Z   CARGO_TERM_COLOR: always
+macos-latest	Run cargo test	2026-04-03T23:39:47.4249320Z ##[endgroup]
+macos-latest	Run cargo test	2026-04-03T23:39:47.7699620Z [1m[92m   Compiling[0m memchr v2.8.0
+macos-latest	Run cargo test	2026-04-03T23:39:47.7702470Z [1m[92m   Compiling[0m libc v0.2.183
+macos-latest	Run cargo test	2026-04-03T23:39:47.7702930Z [1m[92m   Compiling[0m itoa v1.0.18
+macos-latest	Run cargo test	2026-04-03T23:39:47.8830380Z [1m[92m   Compiling[0m log v0.4.29
+macos-latest	Run cargo test	2026-04-03T23:39:47.9988370Z [1m[92m   Compiling[0m pin-project-lite v0.2.17
+macos-latest	Run cargo test	2026-04-03T23:39:48.0408080Z [1m[92m   Compiling[0m smallvec v1.15.1
+macos-latest	Run cargo test	2026-04-03T23:39:48.1250680Z [1m[92m   Compiling[0m zerofrom v0.1.6
+macos-latest	Run cargo test	2026-04-03T23:39:48.1768170Z [1m[92m   Compiling[0m bytes v1.11.1
+macos-latest	Run cargo test	2026-04-03T23:39:48.2108480Z [1m[92m   Compiling[0m stable_deref_trait v1.2.1
+macos-latest	Run cargo test	2026-04-03T23:39:48.2409260Z [1m[92m   Compiling[0m cfg-if v1.0.4
+macos-latest	Run cargo test	2026-04-03T23:39:48.2711560Z [1m[92m   Compiling[0m yoke v0.8.1
+macos-latest	Run cargo test	2026-04-03T23:39:48.3639780Z [1m[92m   Compiling[0m errno v0.3.14
+macos-latest	Run cargo test	2026-04-03T23:39:48.3772640Z [1m[92m   Compiling[0m serde_core v1.0.228
+macos-latest	Run cargo test	2026-04-03T23:39:48.4570930Z [1m[92m   Compiling[0m signal-hook-registry v1.4.8
+macos-latest	Run cargo test	2026-04-03T23:39:48.6489350Z [1m[92m   Compiling[0m mio v1.2.0
+macos-latest	Run cargo test	2026-04-03T23:39:48.6705050Z [1m[92m   Compiling[0m zerovec v0.11.5
+macos-latest	Run cargo test	2026-04-03T23:39:49.0226250Z [1m[92m   Compiling[0m socket2 v0.6.3
+macos-latest	Run cargo test	2026-04-03T23:39:49.1040660Z [1m[92m   Compiling[0m zmij v1.0.21
+macos-latest	Run cargo test	2026-04-03T23:39:49.2762760Z [1m[92m   Compiling[0m tokio v1.50.0
+macos-latest	Run cargo test	2026-04-03T23:39:49.3064980Z [1m[92m   Compiling[0m tinystr v0.8.2
+macos-latest	Run cargo test	2026-04-03T23:39:49.4092210Z [1m[92m   Compiling[0m writeable v0.6.2
+macos-latest	Run cargo test	2026-04-03T23:39:49.5071640Z [1m[92m   Compiling[0m litemap v0.8.1
+macos-latest	Run cargo test	2026-04-03T23:39:49.6076820Z [1m[92m   Compiling[0m icu_locale_core v2.1.1
+macos-latest	Run cargo test	2026-04-03T23:39:49.7697620Z [1m[92m   Compiling[0m serde v1.0.228
+macos-latest	Run cargo test	2026-04-03T23:39:50.1420310Z [1m[92m   Compiling[0m serde_json v1.0.149
+macos-latest	Run cargo test	2026-04-03T23:39:50.3195920Z [1m[92m   Compiling[0m zerotrie v0.2.3
+macos-latest	Run cargo test	2026-04-03T23:39:50.5126520Z [1m[92m   Compiling[0m potential_utf v0.1.4
+macos-latest	Run cargo test	2026-04-03T23:39:50.5817900Z [1m[92m   Compiling[0m percent-encoding v2.3.2
+macos-latest	Run cargo test	2026-04-03T23:39:50.6637340Z [1m[92m   Compiling[0m icu_collections v2.1.1
+macos-latest	Run cargo test	2026-04-03T23:39:51.0508520Z [1m[92m   Compiling[0m icu_provider v2.1.1
+macos-latest	Run cargo test	2026-04-03T23:39:51.0618580Z [1m[92m   Compiling[0m icu_normalizer_data v2.1.1
+macos-latest	Run cargo test	2026-04-03T23:39:51.0926490Z [1m[92m   Compiling[0m icu_properties_data v2.1.2
+macos-latest	Run cargo test	2026-04-03T23:39:51.1742810Z [1m[92m   Compiling[0m futures-core v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:39:51.2452420Z [1m[92m   Compiling[0m icu_normalizer v2.1.1
+macos-latest	Run cargo test	2026-04-03T23:39:51.2560590Z [1m[92m   Compiling[0m icu_properties v2.1.2
+macos-latest	Run cargo test	2026-04-03T23:39:51.6516410Z [1m[92m   Compiling[0m form_urlencoded v1.2.2
+macos-latest	Run cargo test	2026-04-03T23:39:51.7584960Z [1m[92m   Compiling[0m once_cell v1.21.4
+macos-latest	Run cargo test	2026-04-03T23:39:51.8745350Z [1m[92m   Compiling[0m idna_adapter v1.2.1
+macos-latest	Run cargo test	2026-04-03T23:39:51.9532690Z [1m[92m   Compiling[0m utf8_iter v1.0.4
+macos-latest	Run cargo test	2026-04-03T23:39:52.0373990Z [1m[92m   Compiling[0m idna v1.1.0
+macos-latest	Run cargo test	2026-04-03T23:39:52.1688410Z [1m[92m   Compiling[0m typenum v1.19.0
+macos-latest	Run cargo test	2026-04-03T23:39:52.6516390Z [1m[92m   Compiling[0m bitflags v1.3.2
+macos-latest	Run cargo test	2026-04-03T23:39:52.6821750Z [1m[92m   Compiling[0m fluent-uri v0.1.4
+macos-latest	Run cargo test	2026-04-03T23:39:52.8330940Z [1m[92m   Compiling[0m generic-array v0.14.7
+macos-latest	Run cargo test	2026-04-03T23:39:52.9503220Z [1m[92m   Compiling[0m url v2.5.8
+macos-latest	Run cargo test	2026-04-03T23:39:53.1582550Z [1m[92m   Compiling[0m bitflags v2.11.0
+macos-latest	Run cargo test	2026-04-03T23:39:53.3315530Z [1m[92m   Compiling[0m futures-sink v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:39:53.3940970Z [1m[92m   Compiling[0m lsp-types v0.97.0
+macos-latest	Run cargo test	2026-04-03T23:39:53.5931540Z [1m[92m   Compiling[0m http v1.4.0
+macos-latest	Run cargo test	2026-04-03T23:39:54.1454920Z [1m[92m   Compiling[0m regex-syntax v0.8.10
+macos-latest	Run cargo test	2026-04-03T23:39:54.4836440Z [1m[92m   Compiling[0m http-body v1.0.1
+macos-latest	Run cargo test	2026-04-03T23:39:54.5448280Z [1m[92m   Compiling[0m block-buffer v0.10.4
+macos-latest	Run cargo test	2026-04-03T23:39:54.6108010Z [1m[92m   Compiling[0m crypto-common v0.1.7
+macos-latest	Run cargo test	2026-04-03T23:39:54.6644220Z [1m[92m   Compiling[0m tracing-core v0.1.36
+macos-latest	Run cargo test	2026-04-03T23:39:55.0163280Z [1m[92m   Compiling[0m aho-corasick v1.1.4
+macos-latest	Run cargo test	2026-04-03T23:39:56.1237230Z [1m[92m   Compiling[0m same-file v1.0.6
+macos-latest	Run cargo test	2026-04-03T23:39:56.2040790Z [1m[92m   Compiling[0m walkdir v2.5.0
+macos-latest	Run cargo test	2026-04-03T23:39:56.4296600Z [1m[92m   Compiling[0m regex-automata v0.4.14
+macos-latest	Run cargo test	2026-04-03T23:39:56.4617400Z [1m[92m   Compiling[0m tracing v0.1.44
+macos-latest	Run cargo test	2026-04-03T23:39:56.6089050Z [1m[92m   Compiling[0m digest v0.10.7
+macos-latest	Run cargo test	2026-04-03T23:39:56.7092310Z [1m[92m   Compiling[0m plugins v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/plugins)
+macos-latest	Run cargo test	2026-04-03T23:39:58.0952670Z [1m[92m   Compiling[0m cpufeatures v0.2.17
+macos-latest	Run cargo test	2026-04-03T23:39:58.1484320Z [1m[92m   Compiling[0m futures-task v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:39:58.2287870Z [1m[92m   Compiling[0m futures-io v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:39:58.2989810Z [1m[92m   Compiling[0m tower-service v0.3.3
+macos-latest	Run cargo test	2026-04-03T23:39:58.3391880Z [1m[92m   Compiling[0m slab v0.4.12
+macos-latest	Run cargo test	2026-04-03T23:39:58.4220540Z [1m[92m   Compiling[0m futures-util v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:39:59.1993830Z [1m[92m   Compiling[0m sha2 v0.10.9
+macos-latest	Run cargo test	2026-04-03T23:39:59.3683790Z [1m[92m   Compiling[0m regex v1.12.3
+macos-latest	Run cargo test	2026-04-03T23:39:59.7310530Z [1m[92m   Compiling[0m lsp v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/lsp)
+macos-latest	Run cargo test	2026-04-03T23:39:59.9738650Z [1m[92m   Compiling[0m zeroize v1.8.2
+macos-latest	Run cargo test	2026-04-03T23:40:00.0700850Z [1m[92m   Compiling[0m glob v0.3.3
+macos-latest	Run cargo test	2026-04-03T23:40:00.2127260Z [1m[92m   Compiling[0m try-lock v0.2.5
+macos-latest	Run cargo test	2026-04-03T23:40:00.2600210Z [1m[92m   Compiling[0m base64 v0.22.1
+macos-latest	Run cargo test	2026-04-03T23:40:00.3610700Z [1m[92m   Compiling[0m want v0.3.1
+macos-latest	Run cargo test	2026-04-03T23:40:00.4381670Z [1m[92m   Compiling[0m rustls-pki-types v1.14.0
+macos-latest	Run cargo test	2026-04-03T23:40:00.4795010Z [1m[92m   Compiling[0m httparse v1.10.1
+macos-latest	Run cargo test	2026-04-03T23:40:00.6743820Z [1m[92m   Compiling[0m futures-channel v0.3.32
+macos-latest	Run cargo test	2026-04-03T23:40:00.7446900Z [1m[92m   Compiling[0m sync_wrapper v1.0.2
+macos-latest	Run cargo test	2026-04-03T23:40:00.7848920Z [1m[92m   Compiling[0m getrandom v0.2.17
+macos-latest	Run cargo test	2026-04-03T23:40:00.7967900Z [1m[92m   Compiling[0m tower-layer v0.3.3
+macos-latest	Run cargo test	2026-04-03T23:40:00.8568640Z [1m[92m   Compiling[0m atomic-waker v1.1.2
+macos-latest	Run cargo test	2026-04-03T23:40:00.8772740Z [1m[92m   Compiling[0m untrusted v0.9.0
+macos-latest	Run cargo test	2026-04-03T23:40:00.9076590Z [1m[92m   Compiling[0m httpdate v1.0.3
+macos-latest	Run cargo test	2026-04-03T23:40:00.9192020Z [1m[92m   Compiling[0m ring v0.17.14
+macos-latest	Run cargo test	2026-04-03T23:40:01.0083390Z [1m[92m   Compiling[0m hyper v1.9.0
+macos-latest	Run cargo test	2026-04-03T23:40:01.0219800Z [1m[92m   Compiling[0m runtime v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/runtime)
+macos-latest	Run cargo test	2026-04-03T23:40:01.7560870Z [1m[33mwarning[0m[1m: unused variable: `error`[0m
+macos-latest	Run cargo test	2026-04-03T23:40:01.7662230Z    [1m[94m--> [0mcrates/runtime/src/config.rs:510:13
+macos-latest	Run cargo test	2026-04-03T23:40:01.7712440Z     [1m[94m|[0m
+macos-latest	Run cargo test	2026-04-03T23:40:01.7720270Z [1m[94m510[0m [1m[94m|[0m         Err(error) if is_legacy_config => return Ok(None),
+macos-latest	Run cargo test	2026-04-03T23:40:01.7721940Z     [1m[94m|[0m             [1m[33m^^^^^[0m [1m[33mhelp: if this is intentional, prefix it with an underscore: `_error`[0m
+macos-latest	Run cargo test	2026-04-03T23:40:01.7723020Z     [1m[94m|[0m
+macos-latest	Run cargo test	2026-04-03T23:40:01.7723930Z     [1m[94m= [0m[1mnote[0m: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+macos-latest	Run cargo test	2026-04-03T23:40:01.7724780Z 
+macos-latest	Run cargo test	2026-04-03T23:40:01.9643590Z [1m[92m   Compiling[0m ipnet v2.12.0
+macos-latest	Run cargo test	2026-04-03T23:40:02.3031940Z [1m[92m   Compiling[0m hyper-util v0.1.20
+macos-latest	Run cargo test	2026-04-03T23:40:02.3216640Z [1m[92m   Compiling[0m rustls-webpki v0.103.10
+macos-latest	Run cargo test	2026-04-03T23:40:03.0411400Z [1m[92m   Compiling[0m tower v0.5.3
+macos-latest	Run cargo test	2026-04-03T23:40:03.3538580Z [1m[92m   Compiling[0m http-body-util v0.1.3
+macos-latest	Run cargo test	2026-04-03T23:40:03.4984020Z [1m[92m   Compiling[0m ryu v1.0.23
+macos-latest	Run cargo test	2026-04-03T23:40:03.5085520Z [1m[92m   Compiling[0m subtle v2.6.1
+macos-latest	Run cargo test	2026-04-03T23:40:03.5610360Z [1m[92m   Compiling[0m serde_urlencoded v0.7.1
+macos-latest	Run cargo test	2026-04-03T23:40:03.5857090Z [1m[92m   Compiling[0m rustls v0.23.37
+macos-latest	Run cargo test	2026-04-03T23:40:03.7240160Z [1m[92m   Compiling[0m webpki-roots v1.0.6
+macos-latest	Run cargo test	2026-04-03T23:40:03.7747160Z [1m[92m   Compiling[0m iri-string v0.7.12
+macos-latest	Run cargo test	2026-04-03T23:40:04.2294580Z [1m[33mwarning[0m: `runtime` (lib) generated 1 warning (run `cargo fix --lib -p runtime` to apply 1 suggestion)
+macos-latest	Run cargo test	2026-04-03T23:40:04.2316300Z [1m[92m   Compiling[0m tokio-util v0.7.18
+macos-latest	Run cargo test	2026-04-03T23:40:04.5287960Z [1m[92m   Compiling[0m commands v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/commands)
+macos-latest	Run cargo test	2026-04-03T23:40:05.0398890Z [1m[92m   Compiling[0m tower-http v0.6.8
+macos-latest	Run cargo test	2026-04-03T23:40:05.1285080Z [1m[92m   Compiling[0m mime v0.3.17
+macos-latest	Run cargo test	2026-04-03T23:40:05.3186680Z [1m[92m   Compiling[0m powerfmt v0.2.0
+macos-latest	Run cargo test	2026-04-03T23:40:05.3222950Z [1m[92m   Compiling[0m axum-core v0.5.6
+macos-latest	Run cargo test	2026-04-03T23:40:05.4227960Z [1m[92m   Compiling[0m deranged v0.5.8
+macos-latest	Run cargo test	2026-04-03T23:40:05.9870020Z [1m[92m   Compiling[0m tokio-rustls v0.26.4
+macos-latest	Run cargo test	2026-04-03T23:40:06.1254120Z [1m[92m   Compiling[0m hyper-rustls v0.27.7
+macos-latest	Run cargo test	2026-04-03T23:40:06.3025420Z [1m[92m   Compiling[0m reqwest v0.12.28
+macos-latest	Run cargo test	2026-04-03T23:40:06.3303110Z [1m[92m   Compiling[0m serde_path_to_error v0.1.20
+macos-latest	Run cargo test	2026-04-03T23:40:06.6210950Z [1m[92m   Compiling[0m scopeguard v1.2.0
+macos-latest	Run cargo test	2026-04-03T23:40:06.6524100Z [1m[92m   Compiling[0m num-conv v0.2.1
+macos-latest	Run cargo test	2026-04-03T23:40:06.7102590Z [1m[92m   Compiling[0m hashbrown v0.16.1
+macos-latest	Run cargo test	2026-04-03T23:40:07.3830470Z [1m[92m   Compiling[0m adler2 v2.0.1
+macos-latest	Run cargo test	2026-04-03T23:40:07.4545790Z [1m[92m   Compiling[0m unicode-width v0.2.2
+macos-latest	Run cargo test	2026-04-03T23:40:07.6084000Z [1m[92m   Compiling[0m matchit v0.8.4
+macos-latest	Run cargo test	2026-04-03T23:40:07.8556150Z [1m[92m   Compiling[0m time-core v0.1.8
+macos-latest	Run cargo test	2026-04-03T23:40:07.9252670Z [1m[92m   Compiling[0m equivalent v1.0.2
+macos-latest	Run cargo test	2026-04-03T23:40:07.9524450Z [1m[92m   Compiling[0m simd-adler32 v0.3.9
+macos-latest	Run cargo test	2026-04-03T23:40:08.0488630Z [1m[92m   Compiling[0m miniz_oxide v0.8.9
+macos-latest	Run cargo test	2026-04-03T23:40:08.5035620Z [1m[92m   Compiling[0m api v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/api)
+macos-latest	Run cargo test	2026-04-03T23:40:08.6483550Z [1m[92m   Compiling[0m indexmap v2.13.0
+macos-latest	Run cargo test	2026-04-03T23:40:09.0112580Z [1m[92m   Compiling[0m time v0.3.47
+macos-latest	Run cargo test	2026-04-03T23:40:10.2681270Z [1m[92m   Compiling[0m tools v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/tools)
+macos-latest	Run cargo test	2026-04-03T23:40:10.5279700Z [1m[92m   Compiling[0m axum v0.8.8
+macos-latest	Run cargo test	2026-04-03T23:40:10.5654850Z [1m[92m   Compiling[0m lock_api v0.4.14
+macos-latest	Run cargo test	2026-04-03T23:40:10.6875590Z [1m[92m   Compiling[0m async-stream v0.3.6
+macos-latest	Run cargo test	2026-04-03T23:40:10.7551410Z [1m[92m   Compiling[0m onig_sys v69.9.1
+macos-latest	Run cargo test	2026-04-03T23:40:10.8412820Z [1m[92m   Compiling[0m signal-hook v0.3.18
+macos-latest	Run cargo test	2026-04-03T23:40:11.0917340Z [1m[92m   Compiling[0m rustix v1.1.4
+macos-latest	Run cargo test	2026-04-03T23:40:11.9933390Z [1m[92m   Compiling[0m crc32fast v1.5.0
+macos-latest	Run cargo test	2026-04-03T23:40:12.0733060Z [1m[92m   Compiling[0m parking_lot_core v0.9.12
+macos-latest	Run cargo test	2026-04-03T23:40:12.2403780Z [1m[92m   Compiling[0m nibble_vec v0.1.0
+macos-latest	Run cargo test	2026-04-03T23:40:12.2837790Z [1m[92m   Compiling[0m quick-xml v0.38.4
+macos-latest	Run cargo test	2026-04-03T23:40:12.5776760Z [1m[92m   Compiling[0m linked-hash-map v0.5.6
+macos-latest	Run cargo test	2026-04-03T23:40:12.6657700Z [1m[92m   Compiling[0m endian-type v0.1.2
+macos-latest	Run cargo test	2026-04-03T23:40:12.7138040Z [1m[92m   Compiling[0m radix_trie v0.2.1
+macos-latest	Run cargo test	2026-04-03T23:40:12.8792030Z [1m[92m   Compiling[0m yaml-rust v0.4.5
+macos-latest	Run cargo test	2026-04-03T23:40:12.8867230Z [1m[92m   Compiling[0m plist v1.8.0
+macos-latest	Run cargo test	2026-04-03T23:40:13.4206810Z [1m[92m   Compiling[0m thiserror v2.0.18
+macos-latest	Run cargo test	2026-04-03T23:40:13.4585490Z [1m[92m   Compiling[0m nix v0.29.0
+macos-latest	Run cargo test	2026-04-03T23:40:13.4781970Z [1m[92m   Compiling[0m parking_lot v0.12.5
+macos-latest	Run cargo test	2026-04-03T23:40:13.5634550Z [1m[92m   Compiling[0m flate2 v1.1.9
+macos-latest	Run cargo test	2026-04-03T23:40:13.7631640Z [1m[92m   Compiling[0m fd-lock v4.0.4
+macos-latest	Run cargo test	2026-04-03T23:40:13.8136640Z [1m[92m   Compiling[0m compat-harness v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/compat-harness)
+macos-latest	Run cargo test	2026-04-03T23:40:13.8196640Z [1m[92m   Compiling[0m signal-hook-mio v0.2.5
+macos-latest	Run cargo test	2026-04-03T23:40:13.8597540Z [1m[92m   Compiling[0m onig v6.5.1
+macos-latest	Run cargo test	2026-04-03T23:40:13.9706720Z [1m[92m   Compiling[0m rustix v0.38.44
+macos-latest	Run cargo test	2026-04-03T23:40:14.3545600Z [1m[92m   Compiling[0m getopts v0.2.24
+macos-latest	Run cargo test	2026-04-03T23:40:14.4280260Z [1m[92m   Compiling[0m bincode v1.3.3
+macos-latest	Run cargo test	2026-04-03T23:40:14.6121100Z [1m[92m   Compiling[0m fnv v1.0.7
+macos-latest	Run cargo test	2026-04-03T23:40:14.6445450Z [1m[92m   Compiling[0m home v0.5.12
+macos-latest	Run cargo test	2026-04-03T23:40:14.6878260Z [1m[92m   Compiling[0m unicode-segmentation v1.13.2
+macos-latest	Run cargo test	2026-04-03T23:40:14.6999410Z [1m[92m   Compiling[0m unicase v2.9.0
+macos-latest	Run cargo test	2026-04-03T23:40:14.7144420Z [1m[92m   Compiling[0m utf8parse v0.2.2
+macos-latest	Run cargo test	2026-04-03T23:40:14.7544440Z [1m[92m   Compiling[0m pulldown-cmark-escape v0.11.0
+macos-latest	Run cargo test	2026-04-03T23:40:14.8291560Z [1m[92m   Compiling[0m pulldown-cmark v0.13.3
+macos-latest	Run cargo test	2026-04-03T23:40:14.8488050Z [1m[92m   Compiling[0m syntect v5.3.0
+macos-latest	Run cargo test	2026-04-03T23:40:14.9968720Z [1m[92m   Compiling[0m rustyline v15.0.0
+macos-latest	Run cargo test	2026-04-03T23:40:16.1170870Z [1m[92m   Compiling[0m crossterm v0.28.1
+macos-latest	Run cargo test	2026-04-03T23:40:16.4927670Z [1m[92m   Compiling[0m server v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/server)
+macos-latest	Run cargo test	2026-04-03T23:40:17.4323910Z [1m[92m   Compiling[0m claw-cli v0.1.0 (/Users/runner/work/ClawSec/ClawSec/crates/claw-cli)
+macos-latest	Run cargo test	2026-04-03T23:40:26.4038330Z [1m[33mwarning[0m: `runtime` (lib test) generated 1 warning (1 duplicate)
+macos-latest	Run cargo test	2026-04-03T23:40:26.4040260Z [1m[92m    Finished[0m `test` profile [unoptimized + debuginfo] target(s) in 38.91s
+macos-latest	Run cargo test	2026-04-03T23:40:26.4312560Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/api-0d671fa675400fd9)
+macos-latest	Run cargo test	2026-04-03T23:40:26.4349740Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4350280Z running 36 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.4371710Z test client::tests::provider_detection_prefers_model_family ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4372240Z test client::tests::resolves_existing_and_grok_aliases ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4372790Z test providers::claw_provider::tests::auth_source_from_env_combines_api_key_and_bearer_token ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4382380Z test providers::claw_provider::tests::backoff_doubles_until_maximum ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4382920Z test providers::claw_provider::tests::message_request_stream_helper_sets_stream_true ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4383590Z test providers::claw_provider::tests::auth_source_applies_headers ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4384080Z test providers::claw_provider::tests::oauth_token_expiry_uses_expires_at_timestamp ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4384790Z test providers::claw_provider::tests::oauth_token_maps_to_bearer_auth_source ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4385400Z test providers::claw_provider::tests::auth_source_from_saved_oauth_when_env_absent ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4385880Z test providers::claw_provider::tests::read_api_key_prefers_api_key_env ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4386580Z test providers::claw_provider::tests::read_api_key_requires_non_empty_value ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4387280Z test providers::claw_provider::tests::read_api_key_requires_presence ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4387750Z test providers::claw_provider::tests::read_auth_token_reads_auth_token_env ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4388230Z test providers::claw_provider::tests::request_id_uses_primary_or_fallback_header ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4405910Z test providers::claw_provider::tests::resolve_saved_oauth_token_preserves_refresh_token_when_refresh_response_omits_it ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4418760Z test providers::claw_provider::tests::resolve_saved_oauth_token_refreshes_expired_credentials ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4422640Z test providers::claw_provider::tests::retryable_statuses_are_detected ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4423670Z test providers::claw_provider::tests::tool_delta_variant_round_trips ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4426590Z test providers::openai_compat::tests::endpoint_builder_accepts_base_urls_and_full_endpoints ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4427350Z test providers::openai_compat::tests::missing_xai_api_key_is_provider_specific ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4428510Z test providers::openai_compat::tests::normalizes_stop_reasons ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4429100Z test providers::openai_compat::tests::parses_tool_arguments_fallback ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4429610Z test providers::openai_compat::tests::request_translation_uses_openai_compatible_shape ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4437190Z test providers::openai_compat::tests::tool_choice_translation_supports_required_function ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4437790Z test providers::claw_provider::tests::resolve_startup_auth_source_errors_when_refreshable_token_lacks_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4438360Z test providers::tests::detects_provider_from_model_name_first ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4438790Z test providers::tests::keeps_existing_max_token_heuristic ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4439160Z test providers::tests::resolves_grok_aliases ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4439470Z test sse::tests::ignores_data_less_event_frames ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4439910Z test sse::tests::ignores_ping_and_done ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4440180Z test sse::tests::parses_chunked_stream ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4440450Z test sse::tests::parses_single_frame ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4440730Z test sse::tests::parses_split_json_across_data_lines ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4441050Z test sse::tests::parses_thinking_content_block_start ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4441500Z test sse::tests::parses_thinking_related_deltas ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4442160Z [1m[92m     Running[0m tests/client_integration.rs (target/debug/deps/client_integration-2db7229c25a37818)
+macos-latest	Run cargo test	2026-04-03T23:40:26.4442750Z test providers::claw_provider::tests::resolve_startup_auth_source_uses_saved_oauth_without_loading_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4443350Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4443570Z test result: ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+macos-latest	Run cargo test	2026-04-03T23:40:26.4443830Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4463060Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4463880Z running 6 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.4465500Z test live_stream_smoke_test ... ignored, requires ANTHROPIC_API_KEY and network access
+macos-latest	Run cargo test	2026-04-03T23:40:26.4505450Z test provider_client_dispatches_api_requests ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4505820Z test send_message_posts_json_and_parses_response ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4512060Z test stream_message_parses_sse_events_with_tool_use ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4540070Z test retries_retryable_failures_before_succeeding ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4541050Z test surfaces_retry_exhaustion_for_persistent_retryable_errors ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4541320Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4541570Z test result: ok. 5 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.01s
+macos-latest	Run cargo test	2026-04-03T23:40:26.4541850Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4543600Z [1m[92m     Running[0m tests/openai_compat_integration.rs (target/debug/deps/openai_compat_integration-7f50bda13960e3fe)
+macos-latest	Run cargo test	2026-04-03T23:40:26.4647610Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4648170Z running 4 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.4948670Z test provider_client_dispatches_xai_requests_from_env ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4949870Z test send_message_uses_openai_compatible_endpoint_and_auth ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4950880Z test send_message_accepts_full_chat_completions_endpoint_override ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4963150Z test stream_message_normalizes_text_and_multiple_tool_calls ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.4963970Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4964570Z test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+macos-latest	Run cargo test	2026-04-03T23:40:26.4965290Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.4968150Z [1m[92m     Running[0m tests/provider_client_integration.rs (target/debug/deps/provider_client_integration-b305769a1ec49f7e)
+macos-latest	Run cargo test	2026-04-03T23:40:26.5002870Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.5003340Z running 4 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.5018930Z test provider_client_routes_grok_aliases_through_xai ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5019460Z test provider_client_reports_missing_xai_credentials_for_grok_models ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5019950Z test provider_client_uses_explicit_auth_without_env_lookup ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5020290Z test read_xai_base_url_prefers_env_override ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5020560Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.5020820Z test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+macos-latest	Run cargo test	2026-04-03T23:40:26.5021160Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.5022080Z [1m[92m     Running[0m unittests src/main.rs (target/debug/deps/claw-908e8966b719c2e1)
+macos-latest	Run cargo test	2026-04-03T23:40:26.5050190Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.5053420Z running 75 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.5070200Z test init::tests::render_init_template_mentions_detected_python_and_nextjs_markers ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5072980Z test input::tests::command_mode_submits_colon_prefixed_input ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5153290Z test input::tests::ctrl_c_cancels_when_input_exists ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5227800Z test input::tests::dd_and_p_paste_deleted_line_after_current_line ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5228800Z test init::tests::initialize_repo_is_idempotent_and_preserves_existing_files ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5229280Z test input::tests::extracts_only_terminal_slash_command_prefixes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5229890Z test input::tests::normal_mode_supports_motion_and_insert_transition ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5230410Z test input::tests::push_history_ignores_blank_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5230790Z test input::tests::tab_cycles_between_matching_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5231520Z test input::tests::tab_completes_matching_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5232410Z test init::tests::initialize_repo_creates_expected_files_and_gitignore_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5233120Z test input::tests::toggle_submission_flips_vim_mode ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5233550Z test input::tests::visual_mode_tracks_selection_with_motions ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5234250Z test input::tests::yy_and_p_paste_yanked_line_after_current_line ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5366070Z test render::tests::renders_markdown_with_styling_and_lists ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5377200Z test render::tests::renders_links_as_colored_markdown_labels ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5472860Z test render::tests::highlights_fenced_code_blocks ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5610440Z test render::tests::renders_tables_with_alignment ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5627040Z test render::tests::renders_ordered_and_nested_lists ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5633350Z test tests::clear_command_requires_explicit_confirmation_flag ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5633830Z test tests::compact_report_uses_structured_output ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5634290Z test tests::completion_candidates_include_repl_only_exit_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5634780Z test tests::config_report_supports_section_views ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5635150Z test tests::config_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5635480Z test tests::converts_tool_roundtrip_messages ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5645570Z test tests::cost_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5657690Z test render::tests::spinner_advances_frames ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5661720Z test tests::describe_tool_progress_summarizes_known_tools ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5671480Z test tests::filtered_tool_specs_include_plugin_tools ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5673100Z test tests::filtered_tool_specs_respect_allowlist ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5674030Z test tests::defaults_to_repl_when_no_args ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5674750Z test tests::init_help_mentions_direct_subcommand ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5675680Z test tests::init_template_mentions_detected_rust_workspace ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5719660Z test tests::model_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5720570Z test tests::model_switch_report_preserves_context_summary ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5722290Z test tests::normalizes_supported_permission_modes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5723670Z test tests::memory_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5724050Z test tests::parses_bare_prompt_and_json_output_flag ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5724450Z test tests::parses_allowed_tools_flags_with_aliases_and_lists ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5725520Z test tests::parses_direct_agents_and_skills_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5735510Z test tests::parses_login_and_logout_subcommands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5744820Z test tests::parses_permission_mode_flag ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5745190Z test tests::parses_prompt_subcommand ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5745910Z test tests::parses_resume_and_config_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5746350Z test tests::parses_resume_flag_with_multiple_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5746760Z test tests::parses_resume_flag_with_slash_command ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5774190Z test tests::parses_system_prompt_options ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5776160Z test tests::parses_version_flags_without_initializing_prompt_mode ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5777220Z test tests::permission_policy_uses_plugin_tool_permissions ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5779620Z test tests::permissions_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5781480Z test tests::permissions_switch_report_is_structured ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5786870Z test tests::parses_git_status_metadata ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5789100Z test tests::push_output_block_skips_empty_object_prefix_for_tool_streams ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5795790Z test tests::rejects_unknown_allowed_tools ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5796780Z test tests::repl_help_includes_shared_commands_and_exit ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5800500Z test tests::repl_help_mentions_history_completion_and_multiline ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5801030Z test tests::resolves_known_model_aliases ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5803290Z test tests::resolves_model_aliases_in_args ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5878820Z test render::tests::streaming_state_waits_for_complete_blocks ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5879930Z test tests::response_to_events_preserves_empty_object_json_input_outside_streaming ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5881540Z test tests::response_to_events_preserves_non_empty_json_input_outside_streaming ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5882580Z test tests::resume_report_uses_sectioned_layout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5883760Z test tests::resume_supported_command_list_matches_expected_surface ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5895650Z test tests::shared_help_uses_resume_annotation_copy ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5939720Z test tests::push_output_block_renders_markdown_text ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5940430Z test tests::status_line_reports_model_and_token_totals ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5940960Z test tests::tool_rendering_helpers_compact_output ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5943990Z test tests::tool_rendering_truncates_generic_long_output_for_display_only ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5947410Z test tests::tool_rendering_truncates_large_bash_output_for_display_only ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5948720Z test tests::tool_rendering_truncates_large_read_output_for_display_only ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5950810Z test tests::tool_rendering_truncates_raw_generic_output_for_display_only ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5951370Z test tests::ultraplan_progress_lines_include_phase_step_and_elapsed_status ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5951930Z test tests::unknown_repl_command_suggestions_include_repl_shortcuts ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.5994680Z test tests::response_to_events_ignores_thinking_blocks ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.6252050Z test tests::status_context_reads_real_workspace_metadata ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.6252390Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.6253050Z test result: ok. 75 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+macos-latest	Run cargo test	2026-04-03T23:40:26.6253840Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/commands-f780db2ef375fa33)
+macos-latest	Run cargo test	2026-04-03T23:40:26.6254190Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.6279610Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.6279780Z running 17 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.6282670Z test tests::agents_and_skills_usage_support_help_and_unexpected_args ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7273670Z test tests::commit_command_stages_and_commits_changes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7293570Z test tests::compacts_sessions_via_slash_command ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7403310Z test tests::enables_and_disables_plugin_by_name ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7405350Z test tests::help_command_is_non_mutating ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7406060Z test tests::ignores_unknown_or_runtime_bound_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7447690Z test tests::installs_plugin_from_path_and_lists_it ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7478870Z test tests::lists_agents_from_project_and_user_roots ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7484940Z test tests::lists_auto_installed_bundled_plugins_with_status ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7487090Z test tests::lists_skills_from_project_and_user_roots ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7487510Z test tests::parses_quoted_skill_frontmatter_values ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7488390Z test tests::parses_supported_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7488770Z test tests::renders_help_from_shared_specs ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7489170Z test tests::renders_plugins_report_with_name_version_and_status ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7489630Z test tests::suggests_close_slash_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.7588920Z test tests::branch_and_worktree_commands_manage_git_state ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.8786670Z test tests::commit_push_pr_command_commits_pushes_and_creates_pr ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.8787030Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8787220Z test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.25s
+macos-latest	Run cargo test	2026-04-03T23:40:26.8787550Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8788410Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/compat_harness-9a76e73f4913b71c)
+macos-latest	Run cargo test	2026-04-03T23:40:26.8875030Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8876010Z running 3 tests
+macos-latest	Run cargo test	2026-04-03T23:40:26.8881730Z test tests::detects_known_upstream_command_symbols ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.8883680Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/lsp-c9e6a5d88b857d94)
+macos-latest	Run cargo test	2026-04-03T23:40:26.8884160Z test tests::detects_known_upstream_tool_symbols ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.8884790Z test tests::extracts_non_empty_manifests_from_upstream_repo ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:26.8885040Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8885220Z test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+macos-latest	Run cargo test	2026-04-03T23:40:26.8885530Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8909740Z 
+macos-latest	Run cargo test	2026-04-03T23:40:26.8909960Z running 2 tests
+macos-latest	Run cargo test	2026-04-03T23:40:27.0365060Z test tests::renders_runtime_context_enrichment_for_prompt_usage ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0365650Z test tests::collects_diagnostics_and_symbol_navigation_from_mock_server ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0365990Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.0366270Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+macos-latest	Run cargo test	2026-04-03T23:40:27.0366600Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.0367190Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/plugins-2dcad5412c73ad5f)
+macos-latest	Run cargo test	2026-04-03T23:40:27.0395500Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.0396670Z running 27 tests
+macos-latest	Run cargo test	2026-04-03T23:40:27.0720330Z test hooks::tests::pre_tool_use_denies_when_plugin_hook_exits_two ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0728120Z test tests::auto_installs_bundled_plugins_into_the_registry ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0753120Z test tests::bundled_sync_prunes_removed_bundled_registry_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0777470Z test tests::default_bundled_root_loads_repo_bundles_as_installed_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0795170Z test tests::discovers_builtin_and_bundled_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0797000Z test tests::aggregates_and_executes_plugin_tools ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0801120Z test tests::installed_plugin_discovery_keeps_registry_entries_outside_install_root ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0805130Z test tests::installed_plugin_discovery_prunes_stale_registry_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0812150Z test tests::list_installed_plugins_scans_install_root_without_registry_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.0949480Z test tests::list_installed_plugins_scans_packaged_manifests_in_install_root ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1087570Z test tests::load_plugin_from_directory_accumulates_multiple_validation_errors ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1182470Z test tests::load_plugin_from_directory_defaults_optional_fields ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1183070Z test tests::load_plugin_from_directory_reads_root_manifest_and_validates_entries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1183580Z test tests::load_plugin_from_directory_rejects_duplicate_permissions_and_commands ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1187610Z test tests::load_plugin_from_directory_rejects_invalid_permissions ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1188210Z test tests::load_plugin_from_directory_rejects_invalid_tool_required_permission ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1189010Z test tests::load_plugin_from_directory_rejects_missing_tool_or_command_paths ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1189650Z test tests::load_plugin_from_directory_supports_packaged_manifest_path ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1190060Z test hooks::tests::collects_and_runs_hooks_from_enabled_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1190480Z test tests::load_plugin_from_directory_validates_required_fields ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1190930Z test tests::persists_bundled_plugin_disable_state_across_reloads ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1191320Z test tests::persists_bundled_plugin_enable_state_across_reloads ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1191740Z test tests::installs_enables_updates_and_uninstalls_external_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1216620Z test tests::rejects_plugin_sources_with_missing_hook_paths ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1218540Z test tests::validates_plugin_source_before_install ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1270310Z test tests::plugin_registry_tracks_enabled_state_and_lookup ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1371150Z test tests::plugin_registry_runs_initialize_and_shutdown_for_enabled_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1373390Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/runtime-840c0f226f51adc5)
+macos-latest	Run cargo test	2026-04-03T23:40:27.1374180Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.1374660Z test result: ok. 27 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+macos-latest	Run cargo test	2026-04-03T23:40:27.1376220Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.1415040Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.1416850Z running 87 tests
+macos-latest	Run cargo test	2026-04-03T23:40:27.1435280Z test compact::tests::compacts_older_messages_into_a_system_summary ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1435990Z test compact::tests::extracts_key_files_from_message_content ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1437110Z test compact::tests::formats_compact_summary_like_upstream ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1438320Z test compact::tests::ignores_existing_compacted_summary_when_deciding_to_recompact ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1439140Z test compact::tests::infers_pending_work_from_recent_messages ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1442670Z test compact::tests::keeps_previous_compacted_context_when_compacting_again ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1443390Z test compact::tests::leaves_small_sessions_unchanged ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1444100Z test compact::tests::truncates_long_blocks_in_summary ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1515900Z test bash::tests::executes_simple_command ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1517080Z test bash::tests::disables_sandbox_when_requested ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1517790Z test config::tests::loads_and_merges_claw_code_config_files_by_precedence ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1581160Z test config::tests::parses_plugin_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1658700Z test config::tests::parses_plugin_config_from_enabled_plugins ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1751830Z test config::tests::rejects_invalid_mcp_server_shapes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1756890Z test config::tests::parses_sandbox_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1758140Z test config::tests::parses_typed_mcp_and_oauth_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1759200Z test conversation::tests::compacts_session_after_turns ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1779310Z test config::tests::rejects_non_object_settings_files ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1780100Z test conversation::tests::reconstructs_usage_tracker_from_restored_session ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1786140Z test conversation::tests::records_denied_tool_results_when_prompt_rejects ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1787390Z test conversation::tests::runs_user_to_tool_to_result_loop_end_to_end_and_tracks_usage ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1788550Z test file_ops::tests::edits_file_contents ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1789560Z test file_ops::tests::globs_and_greps_directory ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1790580Z test file_ops::tests::reads_and_writes_files ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1846800Z test conversation::tests::denies_tool_use_when_pre_tool_hook_blocks ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1862950Z test hooks::tests::allows_exit_code_zero_and_captures_stdout ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1916360Z test hooks::tests::denies_exit_code_two ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1921470Z test conversation::tests::appends_post_tool_hook_feedback_to_tool_result ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1922760Z test json::tests::escapes_control_characters ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1924390Z test json::tests::renders_and_parses_json_values ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1931720Z test mcp::tests::normalizes_server_names_for_mcp_tooling ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1934730Z test mcp::tests::computes_signatures_for_stdio_and_remote_servers ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1935960Z test mcp::tests::scoped_hash_ignores_scope_but_tracks_config_content ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1937040Z test mcp::tests::unwraps_ccr_proxy_urls_for_signature_matching ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1938310Z test mcp_client::tests::bootstraps_remote_servers_with_oauth_auth ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1941500Z test mcp_client::tests::bootstraps_stdio_servers_into_transport_targets ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1975310Z test mcp_client::tests::bootstraps_websocket_and_sdk_transports_without_oauth ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1977780Z test hooks::tests::warns_for_other_non_zero_statuses ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1979030Z test mcp_stdio::tests::direct_spawn_uses_transport_env ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.1980200Z test mcp_stdio::tests::manager_records_unsupported_non_stdio_servers_without_panicking ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2061790Z test mcp_stdio::tests::manager_reports_unknown_qualified_tool_name ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2230210Z test mcp_stdio::tests::lists_tools_calls_tool_and_reads_resources_over_jsonrpc ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2375700Z test mcp_stdio::tests::manager_discovers_tools_from_stdio_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2376260Z test mcp_stdio::tests::manager_reuses_spawned_server_between_discovery_and_call ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2377580Z test mcp_stdio::tests::rejects_non_stdio_bootstrap ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2667770Z test mcp_stdio::tests::manager_shutdown_terminates_spawned_children_and_is_idempotent ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2714610Z test mcp_stdio::tests::spawns_stdio_process_and_round_trips_io ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2812320Z test mcp_stdio::tests::round_trips_initialize_request_and_response_over_stdio_frames ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2936310Z test mcp_stdio::tests::manager_routes_tool_calls_to_correct_server ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2937140Z test oauth::tests::builds_authorize_url_and_form_requests ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2937670Z test oauth::tests::generates_pkce_pair_and_state ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2938300Z test oauth::tests::oauth_credentials_round_trip_and_clear_preserves_other_fields ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2939230Z test oauth::tests::parses_callback_query_and_target ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2940390Z test oauth::tests::s256_challenge_matches_expected_vector ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2940980Z test permissions::tests::allows_tools_when_active_mode_meets_requirement ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2941560Z test permissions::tests::denies_read_only_escalations_without_prompt ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2942120Z test permissions::tests::honors_prompt_rejection_reason ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2943130Z test permissions::tests::prompts_for_workspace_write_to_danger_full_access_escalation ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.2959840Z test prompt::tests::dedupes_identical_instruction_content_across_scopes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3004670Z test mcp_stdio::tests::surfaces_jsonrpc_errors_from_tool_calls ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3123960Z test mcp_stdio::tests::write_jsonrpc_request_emits_content_length_frame ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3133150Z test prompt::tests::discovers_dot_claw_instructions_markdown ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3148830Z test prompt::tests::discovers_instruction_files_from_ancestor_chain ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3150120Z test prompt::tests::displays_context_paths_compactly ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3640090Z test prompt::tests::discover_with_git_includes_diff_snapshot_for_tracked_changes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3647470Z test prompt::tests::normalizes_and_collapses_blank_lines ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3647970Z test prompt::tests::renders_claw_code_style_sections_with_project_context ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3648770Z test prompt::tests::renders_instruction_file_metadata ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3649250Z test prompt::tests::truncates_instruction_content_to_budget ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3670430Z test prompt::tests::truncates_large_instruction_content_for_rendering ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3671720Z test remote::tests::bootstrap_derives_proxy_state_and_env ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3683370Z test remote::tests::bootstrap_fails_open_when_token_or_session_is_missing ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3683960Z test remote::tests::helper_outputs_match_expected_shapes ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3684490Z test remote::tests::inherited_proxy_env_requires_proxy_and_ca ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3685000Z test remote::tests::remote_context_reads_env_state ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3685460Z test remote::tests::token_reader_trims_and_handles_missing_files ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3686000Z test sandbox::tests::builds_linux_launcher_with_network_flag_when_requested ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3686610Z test sandbox::tests::detects_container_markers_from_multiple_sources ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3687170Z test sandbox::tests::resolves_request_with_overrides ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3687690Z test session::tests::persists_and_restores_session_json ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3688200Z test usage::tests::computes_cost_summary_lines ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3688660Z test usage::tests::marks_unknown_model_pricing_as_fallback ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3689420Z test usage::tests::reconstructs_usage_from_session_messages ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3689880Z test usage::tests::supports_model_specific_pricing ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3690340Z test usage::tests::tracks_true_cumulative_usage ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.3908320Z test prompt::tests::discover_with_git_includes_status_snapshot ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4040420Z test prompt::tests::load_system_prompt_reads_claw_files_and_config ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4041140Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4041640Z test result: ok. 87 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.26s
+macos-latest	Run cargo test	2026-04-03T23:40:27.4042400Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4043260Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/server-4579e14b11c24038)
+macos-latest	Run cargo test	2026-04-03T23:40:27.4125520Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4126170Z running 2 tests
+macos-latest	Run cargo test	2026-04-03T23:40:27.4328870Z test tests::creates_and_lists_sessions ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4334190Z test tests::streams_message_events_and_persists_message_flow ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4334470Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4334680Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+macos-latest	Run cargo test	2026-04-03T23:40:27.4334960Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4336780Z [1m[92m     Running[0m unittests src/lib.rs (target/debug/deps/tools-af62974697df57f2)
+macos-latest	Run cargo test	2026-04-03T23:40:27.4372200Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.4372460Z running 24 tests
+macos-latest	Run cargo test	2026-04-03T23:40:27.4382250Z test tests::agent_rejects_blank_required_fields ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4390590Z test tests::agent_tool_subset_mapping_is_expected ... FAILED
+macos-latest	Run cargo test	2026-04-03T23:40:27.4679400Z test tests::bash_tool_reports_success_exit_failure_timeout_and_background ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.4892550Z test tests::brief_returns_sent_message_and_attachment_metadata ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.5262700Z test tests::agent_persists_handoff_metadata ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.5264790Z test tests::exposes_mvp_tools ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6038350Z test tests::agent_fake_runner_can_persist_completion_and_failure ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6047040Z test tests::config_reads_and_writes_supported_values ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6047670Z test tests::pending_tools_preserve_multiple_streaming_tool_calls_by_index ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6058970Z test tests::file_tools_cover_read_write_and_edit_behaviors ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6074400Z test tests::glob_and_grep_tools_cover_success_and_errors ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6074840Z test tests::rejects_unknown_tool_names ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6077320Z test tests::powershell_errors_when_shell_is_missing ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6077630Z test tests::repl_executes_python_code ... FAILED
+macos-latest	Run cargo test	2026-04-03T23:40:27.6376500Z test tests::powershell_runs_via_stub_shell ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6377790Z test tests::structured_output_echoes_input_payload ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6596810Z test tests::skill_loads_local_skill_prompt ... FAILED
+macos-latest	Run cargo test	2026-04-03T23:40:27.6608780Z test tests::tool_search_supports_keyword_and_select_queries ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.6662900Z test tests::subagent_runtime_executes_tool_loop_with_isolated_session ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.7151790Z test tests::sleep_waits_and_reports_duration ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.7617040Z test tests::web_fetch_returns_prompt_aware_summary ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.7774990Z test tests::web_fetch_supports_plain_text_and_rejects_invalid_url ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.8265860Z test tests::web_search_extracts_and_filters_results ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.8610120Z test tests::web_search_handles_generic_links_and_invalid_base_url ... ok
+macos-latest	Run cargo test	2026-04-03T23:40:27.8611000Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8612760Z failures:
+macos-latest	Run cargo test	2026-04-03T23:40:27.8613080Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8613570Z ---- tests::agent_tool_subset_mapping_is_expected stdout ----
+macos-latest	Run cargo test	2026-04-03T23:40:27.8614210Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8614960Z thread 'tests::agent_tool_subset_mapping_is_expected' (167620) panicked at crates/tools/src/lib.rs:3553:9:
+macos-latest	Run cargo test	2026-04-03T23:40:27.8616180Z assertion failed: recon.contains("bash")
+macos-latest	Run cargo test	2026-04-03T23:40:27.8617080Z note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+macos-latest	Run cargo test	2026-04-03T23:40:27.8619160Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8619440Z ---- tests::repl_executes_python_code stdout ----
+macos-latest	Run cargo test	2026-04-03T23:40:27.8619940Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8620550Z thread 'tests::repl_executes_python_code' (167810) panicked at crates/tools/src/lib.rs:4013:10:
+macos-latest	Run cargo test	2026-04-03T23:40:27.8621700Z REPL should succeed: "python runtime not found"
+macos-latest	Run cargo test	2026-04-03T23:40:27.8622240Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8622570Z ---- tests::skill_loads_local_skill_prompt stdout ----
+macos-latest	Run cargo test	2026-04-03T23:40:27.8623090Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8623740Z thread 'tests::skill_loads_local_skill_prompt' (167814) panicked at crates/tools/src/lib.rs:3309:10:
+macos-latest	Run cargo test	2026-04-03T23:40:27.8624900Z Skill should succeed: "unknown skill: help"
+macos-latest	Run cargo test	2026-04-03T23:40:27.8625350Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8625350Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8625510Z failures:
+macos-latest	Run cargo test	2026-04-03T23:40:27.8626000Z     tests::agent_tool_subset_mapping_is_expected
+macos-latest	Run cargo test	2026-04-03T23:40:27.8626840Z     tests::repl_executes_python_code
+macos-latest	Run cargo test	2026-04-03T23:40:27.8627570Z     tests::skill_loads_local_skill_prompt
+macos-latest	Run cargo test	2026-04-03T23:40:27.8628280Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8628920Z test result: FAILED. 21 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.42s
+macos-latest	Run cargo test	2026-04-03T23:40:27.8630080Z 
+macos-latest	Run cargo test	2026-04-03T23:40:27.8633210Z [1m[91merror[0m: test failed, to rerun pass `-p tools --lib`
+macos-latest	Run cargo test	2026-04-03T23:40:27.8730740Z ##[error]Process completed with exit code 101.
